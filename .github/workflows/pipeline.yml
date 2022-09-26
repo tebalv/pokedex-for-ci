@@ -2,9 +2,9 @@ name: Deployment Pipeline
 
 on:
   push:
-    branches: [main]
+    branches: [tebalv-develop]
   pull_request:
-    branches: [main]
+    branches: [tebalv-develop]
     types: [opened, synchronize]
 
 jobs:
